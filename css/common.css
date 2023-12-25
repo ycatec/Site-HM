@@ -1,0 +1,19 @@
+:root {
+    --orange: #FB9333;
+    --grey: #585858;
+    --grey2: #575757;
+    --grey3: ##999;
+    --pale-grey: #828282;
+    --black: #2B2B2B;
+    --black2: #333;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}

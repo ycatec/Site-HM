@@ -1,0 +1,122 @@
+.footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer__row {
+    display: flex;
+    justify-content: space-between;
+    /* gap: 147px; */
+}
+
+.footer__row-list-1 {
+    display: flex;
+    flex-direction: column;
+    max-width: 215px;
+}
+
+.footer__row-list-1-item:nth-child(1) {
+    font-size: 24px;
+    font-weight: 700;
+    color: --grey;
+    margin-bottom: 19px;
+}
+
+.footer__row-list-1-item:nth-child(1) span {
+    color: var(--orange);
+}
+
+.footer__row-list-1-item:nth-child(2) {
+    color: var(--grey2);
+    line-height: 1.6;
+    margin-bottom: 67px;
+}
+
+.footer__row-list-1-item:nth-child(3) {
+    line-height: 1.5;
+    color: var(--black);
+}
+
+.footer__row-list-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.footer__row-list-2-item a {
+    color: var(--grey2);
+    line-height: 1.5;
+}
+
+.footer_active > a{
+    color: var(--orange);
+    font-weight: 600;
+    line-height: 22px;
+}
+
+.footer__row-list-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 240px;
+}
+
+.footer__row-list-3-item:first-child {
+    font-weight: 600;
+    line-height: 22px;
+    color: var(--orange);
+}
+
+.footer__row-list-3-item {
+    line-height: 1.5;
+    color: var(--grey2);
+}
+
+.item-before {
+    padding-left: 40px;
+    position: relative;
+}
+
+.item-before::before {
+    position: absolute;
+    display: inline-block;
+    content: url(../img/footer/geo.svg);
+    width: 24px;
+    height: 24px;
+    left: 0px;
+}
+
+.item-before:nth-child(3):before {
+    content: url(../img/footer/mail.svg);
+}
+
+.item-before:nth-child(4):before {
+    content: url(../img/footer/phone.svg);
+}
+
+.footer__row-list-4 {
+    display: flex;
+    gap: 0 32px;
+    margin-bottom: 20px;
+}
+
+.footer__row-list-4-item a {
+    display: block;
+    width: 24px;
+    height: 24px;
+}
+
+.footer__row-list-4-item:nth-child(1) a {
+    background: no-repeat url(../img/footer/twitter.svg);
+}
+.footer__row-list-4-item:nth-child(2) a {
+    background: no-repeat url(../img/footer/linkedin.svg);
+}
+.footer__row-list-4-item:nth-child(3) a {
+    background: no-repeat url(../img/footer/instagram.svg);
+}
+
+.footer__paragraph {
+    line-height: 1.5;
+    color: var(--grey2);
+}
